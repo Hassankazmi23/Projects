@@ -1,0 +1,25 @@
+Transaction occured at 2016/12/07 18:04:07
+delete from Books where ISBN_Number = 2
+
+Transaction occured at 2016/12/07 18:05:30
+delete from Books where ISBN_Number = 3
+
+Transaction occured at 2016/12/07 18:07:24
+insert into Books (ISBN_Number, authorFirstName, authorLastName, title, yearPublished, publisher, quantity, quality) values('33432','34324','432','432432','3442','423','423','32423')
+
+Transaction occured at 2016/12/07 18:08:19
+insert into Books (ISBN_Number, authorFirstName, authorLastName, title, yearPublished, publisher, quantity, quality) values('432432','','','','','','2','')
+
+Transaction occured at 2016/12/07 18:10:22
+insert into Books (ISBN_Number, authorFirstName, authorLastName, title, yearPublished, publisher, quantity, quality) values('42','','','','','','3','')
+
+Transaction occurred at 2016/12/07 22:04:46
+insert into Books (ISBN_Number, authorFirstName, authorLastName, title, yearPublished, publisher, quantity, quality) values('32423432','Hassan ','Kazmi ','The Knight','2016','Robert Goldberg','1','Nice')
+
+Transaction occurred at 2016/12/07 22:04:46
+insert into Books (ISBN_Number, authorFirstName, authorLastName, title, yearPublished, publisher, quantity, quality) values('32423432','Hassan ','Kazmi ','The Knight','2016','Robert Goldberg','1','Nice')
+Transaction occurred at 2016/12/07 22:08:43
+insert into Books (ISBN_Number, authorFirstName, authorLastName, title, yearPublished, publisher, quantity, quality) values('342342341','Mussa ','Kazmi ','Versace','2014','2Chainz','1','Good')
+
+Transaction occurred at 2016/12/07 22:08:43
+insert into Books (ISBN_Number, authorFirstName, authorLastName, title, yearPublished, publisher, quantity, quality) values('342342341','Mussa ','Kazmi ','Versace','2014','2Chainz','1','Good')
